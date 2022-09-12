@@ -1,0 +1,98 @@
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password],input[type=email],input[type=number] {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  /* background: #f1f1f1; */
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: rgb(255, 255, 255);
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.signup-row{
+  width: 70%;
+}
+.signup-text{
+    color: #002c46;
+    text-shadow: 2px 2px 2px gray;
+}
+.signin-text{
+    color: rgb(0, 114, 207);
+    text-shadow: 2px 2px 2px rgb(0, 68, 26);
+}
+.bg{
+    background-color: rgb(193, 228, 255);
+    width: 100%;
+    border-radius: 10px;
+    box-shadow:  3px 3px 3px rgb(98, 157, 186);
+}
+.bg2{
+    margin-top: 2%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgb(168, 168, 168); 
+}
+
+.form-class{
+    background-color: rgb(234, 250, 255);
+    padding: 2% 0;
+}
+.btn-color{
+    opacity: 0.9;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #0082a3;
+    color: white;
+    box-shadow: 2px 2px 2px #004f62;
+    margin: 0 2%;
+   
+}
+.btn-signin{
+    opacity: 0.9;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #8c00ff;
+    color: white;
+    box-shadow: 2px 2px 2px #5901a1;
+    margin: auto;
+}
+.btn-signin:hover {
+    opacity:1;
+      background-color: #b55bff;
+  }
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #ff5d51;
+  border-radius: 10px;
+  box-shadow: 2px 4px 2px rgb(181, 94, 94);
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 10%;
+  /* margin: 0% 3%; */
+  margin: auto;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}

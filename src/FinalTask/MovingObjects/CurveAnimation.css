@@ -1,0 +1,36 @@
+.container-main{
+    position: relative;
+    background-color: rgb(119, 174, 185);
+    height: 85vh;
+    width: 100%;
+    border: 5px solid rgb(31, 198, 232);
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgb(31, 198, 232);
+}
+
+.curve-container {
+    position: absolute;
+   
+    top: 29rem;
+    left: 5%;
+    transition: transform 1s;
+  }
+  
+  .curve-container.open {
+    transition: transform 0.5s;
+    transform: translateX(250px);
+  }
+  .box {
+    width: 60px;
+    height: 60px;
+    background: rgb(230, 255, 106);
+ 
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(160, 160, 9);
+    cursor: pointer;
+    transition: transform 0.5s;
+  }
+  .curve-container.open .box {
+    transition: transform 1s;
+    transform: translateY(-250px);
+  }

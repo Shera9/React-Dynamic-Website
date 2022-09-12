@@ -1,0 +1,56 @@
+{
+  "posts": [
+    {
+      "title": "Nodegg",
+      "description": "Web",
+      "type": "Back End",
+      "id": 2
+    },
+    {
+      "title": "MongoDB",
+      "description": "DB",
+      "type": "DB",
+      "id": 3
+    },
+    {
+      "title": "vcxv",
+      "description": "cv",
+      "type": "v",
+      "id": 4
+    }
+  ],
+  "profile": [
+    {
+      "name": "sd",
+      "email": "dd",
+      "phone": "4",
+      "age": "22",
+      "password": "2",
+      "id": 3
+    },
+    {
+      "name": "Shafi Ahmad",
+      "email": "a",
+      "phone": "1",
+      "age": "2",
+      "password": "1",
+      "id": 5
+    },
+    {
+      "name": "Ahmad",
+      "email": "4",
+      "phone": "4",
+      "age": "4",
+      "password": "3",
+      "id": 6
+    },
+    {
+      "name": "ff",
+      "email": "w",
+      "phone": "1",
+      "age": "0",
+      "password": "1",
+      "id": 7
+    }
+  ]
+}

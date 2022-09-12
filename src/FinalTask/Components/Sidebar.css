@@ -1,0 +1,81 @@
+.sidebar{
+ position: fixed;
+ overflow: scroll;
+  width: 231.5px;
+  height: 100vh;
+  box-shadow: 3px 3px 2px #398285;
+  /* border-top-right-radius: 50px; */
+}
+.show-col{
+  background-color: #1e4b4c;
+  box-shadow: 2px 2px 2px #152e2e;
+  border-radius: 10px;
+}
+.insert{
+  position: relative;
+  z-index: 1;
+}
+.sidebar-bg{
+  background-color: #5BBEC2 ;
+}
+.sidebar-items{
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+}
+.insert-form{
+  border-radius: 10px;
+  background-color: #d1f2f5;
+  padding: 2%;
+  margin-bottom: 5%;
+  box-shadow: 3px 3px 2px #9dd3d4 ;
+  width: 90%;
+  margin: auto;
+}
+.add-btn{
+  background-color: #0c6bf8;
+  opacity: 0.9;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  padding: 5px 13px;
+  box-shadow: 3px 3px 2px #0049b6;
+}
+.add-btn :hover{
+  background-color: #81b3ff;
+  opacity: 1;
+}
+.card-bg{
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #ab45ff;
+  background-color: #bc6aff;
+  color: white;
+  text-align: center;
+  padding: 2%;
+}
+#bubble-div{
+  background-color: rgb(3, 156, 0);
+ border: 3px solid green;
+  width: 100%;
+  height: 85vh;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 3px 3px 2px rgb(0, 76, 0);
+  cursor: pointer;
+}
+@media screen and (max-width: 1106px){
+.sidebar{
+ 
+  max-width: 100vw;
+  overflow: scroll;
+}
+}
+@media screen and (max-width: 991px){
+  .sidebar{
+   
+    width:0px;
+    
+  }
+}

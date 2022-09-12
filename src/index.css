@@ -1,13 +1,146 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f9ffff;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.navBg{
+  background-color:  #5BBEC2 ;
+  border-bottom:1px solid #9aeef1;
+  border-bottom-left-radius: 50px;
+  box-shadow: 3px 3px 2px #398285;
+  max-width: 100%;
+}
+/* .fullnav-bg{
+  background-color:  #5BBEC2 ;
+  border-bottom:1px solid #9aeef1;
+  border-bottom-left-radius: 50px;
+  box-shadow: 3px 3px 2px #398285;
+  max-width: 100%;
+  height: 63.5px;
+} */
+.nav-items{
+   color: white;
+   font-weight: 600;
+   text-decoration: none;
+   text-align: center;
+}
+Link.active_class{
+  color: rgb(0, 102, 39);
+  border-bottom: white;
+}
+.sidepanel {
+  height: 250px; /* Specify a height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 2; /* Stay on top */
+  top: 0;
+  right: 0;
+  background-color: #ddf5ff;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #699eb1;
+  color: rgb(0, 0, 0);
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 30px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+}
+
+/* The sidepanel links */
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #005c1c;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidepanel a:hover {
+  color: #00ad48;
+}
+
+/* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0%;
+  left: -10%;
+  font-size: 30px;
+  margin-left: 50px;
+  color: #111;
+  background-color: transparent;
+  border: none;
+}
+
+/* Style the button that is used to open the sidepanel */
+.openbtn {
+  /* font-size: 2px; */
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  padding: 0% 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+.bg-btn{
+  background-color: transparent;
+  
+}
+.buy-btn{
+  opacity: 0.9;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px gray;
+  padding: 5px 12px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #444;
+}
+.buy-btn:hover{
+    opacity: 1;
+    background-color: rgb(218, 218, 218);
+}
+.product-add{
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgb(17, 17, 130);
+  background-color: rgb(100, 100, 255);
+  color: white;
+  font-weight: bold;
+  padding: 5px 9px;
+}
+@media screen and (max-width: 991px){
+
+.full-bg{
+  background-color: rgb(144, 237, 255);
+  height: 62px;
+  
+}  
+.navBg {
+  background-color: #5bc25e;
+  /* max-width: 100vw; */
+}
+.nav-items{
+  color: #111;
+}
+}
+@media screen and (max-width: 991px){
+  .navbar-toggler,.navbar-toggler-icon{
+    color: rgb(255, 255, 255);
+    background-color: rgb(215, 244, 255);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(46, 81, 107);
+    
+  } 
 }
